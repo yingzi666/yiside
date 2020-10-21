@@ -1,0 +1,51 @@
+[2020-10-19 14:50:21][sql] CONNECT:[ UseTime:0.003229s ] mysql:host=127.0.0.1;port=3306;dbname=admin_v6;charset=utf8mb4
+[2020-10-19 14:50:21][sql] SHOW FULL COLUMNS FROM `wechat_fans` [ RunTime:0.026963s ]
+[2020-10-19 14:50:21][sql] SELECT COUNT(*) AS think_count FROM `wechat_fans` WHERE  `appid` = '' [ RunTime:0.004433s ]
+[2020-10-19 14:50:21][sql] SELECT * FROM `wechat_fans` WHERE  `appid` = '' ORDER BY `subscribe_time` DESC LIMIT 0,20 [ RunTime:0.000315s ]
+[2020-10-19 14:50:21][sql] SHOW FULL COLUMNS FROM `wechat_fans_tags` [ RunTime:0.003092s ]
+[2020-10-19 14:50:21][sql] SELECT `id`,`name` FROM `wechat_fans_tags` [ RunTime:0.004372s ]
+[2020-10-19 14:50:22][sql] CONNECT:[ UseTime:0.000671s ] mysql:host=127.0.0.1;port=3306;dbname=admin_v6;charset=utf8mb4
+[2020-10-19 14:50:22][sql] SHOW FULL COLUMNS FROM `wechat_news` [ RunTime:0.022148s ]
+[2020-10-19 14:50:22][sql] SELECT COUNT(*) AS think_count FROM `wechat_news` WHERE  `is_deleted` = 0 [ RunTime:0.004832s ]
+[2020-10-19 14:50:22][sql] SELECT * FROM `wechat_news` WHERE  `is_deleted` = 0 ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000265s ]
+[2020-10-19 15:02:15][sql] CONNECT:[ UseTime:0.000641s ] mysql:host=127.0.0.1;port=3306;dbname=admin_v6;charset=utf8mb4
+[2020-10-19 15:02:15][sql] SHOW FULL COLUMNS FROM `wechat_fans` [ RunTime:0.002619s ]
+[2020-10-19 15:02:15][sql] SELECT COUNT(*) AS think_count FROM `wechat_fans` WHERE  `appid` = '' [ RunTime:0.001830s ]
+[2020-10-19 15:02:15][sql] SELECT * FROM `wechat_fans` WHERE  `appid` = '' ORDER BY `subscribe_time` DESC LIMIT 0,20 [ RunTime:0.000226s ]
+[2020-10-19 15:02:15][sql] SHOW FULL COLUMNS FROM `wechat_fans_tags` [ RunTime:0.001279s ]
+[2020-10-19 15:02:15][sql] SELECT `id`,`name` FROM `wechat_fans_tags` [ RunTime:0.000478s ]
+[2020-10-19 15:02:16][sql] CONNECT:[ UseTime:0.002454s ] mysql:host=127.0.0.1;port=3306;dbname=admin_v6;charset=utf8mb4
+[2020-10-19 15:02:16][sql] SHOW FULL COLUMNS FROM `wechat_news` [ RunTime:0.001705s ]
+[2020-10-19 15:02:16][sql] SELECT COUNT(*) AS think_count FROM `wechat_news` WHERE  `is_deleted` = 0 [ RunTime:0.001981s ]
+[2020-10-19 15:02:16][sql] SELECT * FROM `wechat_news` WHERE  `is_deleted` = 0 ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000281s ]
+[2020-10-19 15:02:18][sql] CONNECT:[ UseTime:0.000691s ] mysql:host=127.0.0.1;port=3306;dbname=admin_v6;charset=utf8mb4
+[2020-10-19 15:02:18][sql] SHOW FULL COLUMNS FROM `wechat_keys` [ RunTime:0.009037s ]
+[2020-10-19 15:02:18][sql] SELECT * FROM `wechat_keys` WHERE  `keys` NOT IN ('subscribe','default')  AND `status` = 1 ORDER BY `sort` DESC,`id` DESC [ RunTime:0.005198s ]
+[2020-10-19 15:02:18][sql] SHOW FULL COLUMNS FROM `system_data` [ RunTime:0.003754s ]
+[2020-10-19 15:02:18][sql] SELECT `value` FROM `system_data` WHERE  `name` = 'wechat_menu_data' LIMIT 1 [ RunTime:0.003030s ]
+[2020-10-19 15:02:19][sql] CONNECT:[ UseTime:0.000745s ] mysql:host=127.0.0.1;port=3306;dbname=admin_v6;charset=utf8mb4
+[2020-10-19 15:02:19][sql] SHOW FULL COLUMNS FROM `wechat_keys` [ RunTime:0.005219s ]
+[2020-10-19 15:02:19][sql] SELECT COUNT(*) AS think_count FROM `wechat_keys` WHERE  `keys` NOT IN ('subscribe','default') [ RunTime:0.001683s ]
+[2020-10-19 15:02:19][sql] SELECT * FROM `wechat_keys` WHERE  `keys` NOT IN ('subscribe','default') ORDER BY `sort` DESC,`id` DESC LIMIT 0,20 [ RunTime:0.001386s ]
+[2020-10-19 15:02:21][sql] CONNECT:[ UseTime:0.000788s ] mysql:host=127.0.0.1;port=3306;dbname=admin_v6;charset=utf8mb4
+[2020-10-19 15:02:21][sql] SHOW FULL COLUMNS FROM `wechat_keys` [ RunTime:0.004458s ]
+[2020-10-19 15:02:21][sql] SELECT * FROM `wechat_keys` WHERE  `keys` = 'subscribe' LIMIT 1 [ RunTime:0.002433s ]
+[2020-10-19 15:02:29][sql] CONNECT:[ UseTime:0.000706s ] mysql:host=127.0.0.1;port=3306;dbname=admin_v6;charset=utf8mb4
+[2020-10-19 15:02:29][sql] SHOW FULL COLUMNS FROM `wechat_keys` [ RunTime:0.004421s ]
+[2020-10-19 15:02:29][sql] SELECT * FROM `wechat_keys` WHERE  `keys` = 'default' LIMIT 1 [ RunTime:0.001743s ]
+[2020-10-19 19:19:36][sql] CONNECT:[ UseTime:0.001673s ] mysql:host=127.0.0.1;port=3306;dbname=admin_v6;charset=utf8mb4
+[2020-10-19 19:19:36][sql] SHOW FULL COLUMNS FROM `wechat_fans` [ RunTime:0.016590s ]
+[2020-10-19 19:19:36][sql] SELECT COUNT(*) AS think_count FROM `wechat_fans` WHERE  `appid` = '' [ RunTime:0.004484s ]
+[2020-10-19 19:19:36][sql] SELECT * FROM `wechat_fans` WHERE  `appid` = '' ORDER BY `subscribe_time` DESC LIMIT 0,20 [ RunTime:0.000522s ]
+[2020-10-19 19:19:36][sql] SHOW FULL COLUMNS FROM `wechat_fans_tags` [ RunTime:0.003165s ]
+[2020-10-19 19:19:36][sql] SELECT `id`,`name` FROM `wechat_fans_tags` [ RunTime:0.001495s ]
+[2020-10-19 19:19:37][sql] CONNECT:[ UseTime:0.000818s ] mysql:host=127.0.0.1;port=3306;dbname=admin_v6;charset=utf8mb4
+[2020-10-19 19:19:37][sql] SHOW FULL COLUMNS FROM `wechat_news` [ RunTime:0.012679s ]
+[2020-10-19 19:19:37][sql] SELECT COUNT(*) AS think_count FROM `wechat_news` WHERE  `is_deleted` = 0 [ RunTime:0.000987s ]
+[2020-10-19 19:19:37][sql] SELECT * FROM `wechat_news` WHERE  `is_deleted` = 0 ORDER BY `id` DESC LIMIT 0,20 [ RunTime:0.000236s ]
+[2020-10-19 19:19:41][sql] CONNECT:[ UseTime:0.000965s ] mysql:host=127.0.0.1;port=3306;dbname=admin_v6;charset=utf8mb4
+[2020-10-19 19:19:41][sql] SHOW FULL COLUMNS FROM `wechat_fans` [ RunTime:0.003497s ]
+[2020-10-19 19:19:41][sql] SELECT COUNT(*) AS think_count FROM `wechat_fans` WHERE  `appid` = '' [ RunTime:0.002161s ]
+[2020-10-19 19:19:41][sql] SELECT * FROM `wechat_fans` WHERE  `appid` = '' ORDER BY `subscribe_time` DESC LIMIT 0,20 [ RunTime:0.001243s ]
+[2020-10-19 19:19:41][sql] SHOW FULL COLUMNS FROM `wechat_fans_tags` [ RunTime:0.001932s ]
+[2020-10-19 19:19:41][sql] SELECT `id`,`name` FROM `wechat_fans_tags` [ RunTime:0.000615s ]

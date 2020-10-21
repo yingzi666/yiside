@@ -1,0 +1,75 @@
+
+
+
+
+
+
+
+
+<form class="layui-card" action="{:request()->url()}" data-auto="true" method="post" autocomplete="off">
+
+<div class="layui-input-inline">
+    <select class="layui-select my_category" name="subscribe">
+        {foreach $category as $k=>$v}
+        {if $k.'' eq input('subscribe')}
+        <option selected value="{$v.id}">{$v.name}</option>
+        {else}
+        <option value="{$k}">{$v.name}</option>
+        {/if}
+        {/foreach}
+    </select>
+
+    <select class="layui-select my_category" name="subscribe">
+        {foreach [''=>'-- 全部 --','0'=>'显示未关注的粉丝','1'=>'显示已关注的粉丝'] as $k=>$v}
+        {if $k.'' eq input('subscribe')}
+        <option selected value="{$k}">{$v}</option>
+        {else}
+        <option value="{$k}">{$v}</option>
+        {/if}
+        {/foreach}
+    </select>
+
+    <select class="layui-select my_category" name="subscribe">
+        {foreach [''=>'-- 全部 --','0'=>'显示未关注的粉丝','1'=>'显示已关注的粉丝'] as $k=>$v}
+        {if $k.'' eq input('subscribe')}
+        <option selected value="{$k}">{$v}</option>
+        {else}
+        <option value="{$k}">{$v}</option>
+        {/if}
+        {/foreach}
+    </select>
+
+</div>   
+</form>
+{block name="script"}
+<script type="text/javascript">
+    $(document).ready(function(){
+      $(".my_category").change(function(){
+            pid = $(this).val();
+        var obj = $(this);
+           $.ajax({
+               url: "{:url('admin/good/get_data')}",
+               type: 'GET',
+               dataType: 'json',
+               data: {pid: pid},
+           })
+           .done(function(res) {
+                var str='';
+                 $.each(res, function(index, value) {
+                    str+=" <option value="+value.id+">"+value.name+"</option>";
+                });
+                
+               obj.next().html(str);
+
+           })
+           .fail(function() {
+               console.log("error");
+           })
+           .always(function() {
+               console.log("complete");
+           });
+            
+      });
+    });
+</script>
+{/block}

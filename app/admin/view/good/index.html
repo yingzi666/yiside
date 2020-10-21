@@ -1,0 +1,72 @@
+{extend name='main'}
+
+{block name="button"}
+<!--{if auth("add")}-->
+<button data-modal='{:url("add")}' data-title="添加商品" class='layui-btn layui-btn-sm layui-btn-primary'>发布商品</button>
+<!--{/if}-->
+<!--{if auth("remove")}-->
+<button data-action='{:url("remove")}' data-rule="id#{key}" data-csrf="{:systoken('remove')}" data-confirm="确定要删除这些商品吗？" class='layui-btn layui-btn-sm layui-btn-primary'>删除商品</button>
+<!--{/if}-->
+{/block}
+
+{block name="content"}
+<div class="think-box-shadow table-block">
+    {include file='good/index_search'}
+    <table class="layui-table margin-top-10" lay-skin="line">
+        {notempty name='list'}
+        <thead>
+        <tr>
+            <th class='list-table-check-td think-checkbox'>
+                <label><input data-auto-none data-check-target='.list-check-box' type='checkbox'></label>
+            </th>
+            <th class='text-left nowrap'>商品名称</th>
+
+            <th class='text-left nowrap'>商品描述</th>
+            <th class='text-left nowrap'>货号</th>
+            <th class='text-left nowrap'>分类</th>
+            <th class='text-left nowrap'>价格</th>
+            <th class='text-center nowrap'>商品状态</th>
+            <th class="text-center nowrap">库存</th>
+            <th class="text-center nowrap">销量</th>
+            <th></th>
+        </tr>
+        </thead>
+        {/notempty}
+        <tbody>
+        {foreach $list as $key => $vo}
+        <tr data-dbclick>
+            <td class='list-table-check-td think-checkbox'>
+                <label><input class="list-check-box" value='{$vo.id}' type='checkbox'></label>
+            </td>
+            <td class='text-left'>{$vo.goods_name|default='-'}</td>
+            <td class='text-left'>{$vo.desc|default="没有写描述哦！"}</td>
+            <td class='text-left'>{$vo.goods_sn|default='-'}</td>     
+            <td class='text-left'>测试分类</td>
+            <td class='text-left'>{$vo.cost_price|default='-'}</td>
+            <td class='text-center'>{eq name='vo.is_on_sale' value='0'}<span class="color-red">已禁用</span>{else}<span class="color-green">使用中&nbsp;&nbsp;</span>{/eq}</td>
+            <td class='text-left text-center'>{$vo.store_count|default='-'}</td>
+            <td class="text-left text-center">{$vo.virtual_sales_sum|default='-'}</td>
+            
+            <td class='text-center nowrap'>
+                <!--{if auth("edit")}-->
+                <a data-dbclick class="layui-btn layui-btn-xs" data-title="编辑权限" data-modal='{:url("edit")}?id={$vo.id}'>编 辑</a>
+                <!--{/if}-->
+                <!--{if auth("apply")}-->
+                <!--{/if}-->
+                <!--{if $vo.status eq 1 and auth("state")}-->
+                <a class="layui-btn layui-btn-warm layui-btn-xs" data-confirm="确定禁用该权限吗？" data-action="{:url('state')}" data-value="id#{$vo.id};status#0" data-csrf="{:systoken('state')}">禁 用</a>
+                <!--{/if}-->
+                <!--{if $vo.status eq 0 and auth("state")}-->
+                <a class="layui-btn layui-btn-warm layui-btn-xs" data-confirm="确定启用该权限吗？" data-action="{:url('state')}" data-value="id#{$vo.id};status#1" data-csrf="{:systoken('state')}">启 用</a>
+                <!--{/if}-->
+                <!--{if auth("remove")}-->
+                <a class="layui-btn layui-btn-danger layui-btn-xs" data-confirm="确定要删除权限吗?" data-action="{:url('remove')}" data-value="id#{$vo.id}" data-csrf="{:systoken('remove')}">删 除</a>
+                <!--{/if}-->
+            </td>
+        </tr>
+        {/foreach}
+        </tbody>
+    </table>
+    {empty name='list'}<span class="notdata">没有记录哦</span>{else}{$pagehtml|raw|default=''}{/empty}
+</div>
+{/block}

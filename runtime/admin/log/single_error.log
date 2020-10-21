@@ -1,0 +1,100 @@
+[2020-10-19 17:07:26][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'[/Users/zhangboshuai/www/yiside/vendor/topthink/think-orm/src/db/PDOConnection.php:768]
+[2020-10-19 19:37:35][error] [8]Undefined index: geoip[/Users/zhangboshuai/www/yiside/app/admin/controller/Good.php:62]
+[2020-10-19 19:38:07][error] [8]Undefined index: geoip[/Users/zhangboshuai/www/yiside/app/admin/controller/Good.php:62]
+[2020-10-20 13:27:20][error] [8]Undefined index: url[/Users/zhangboshuai/www/yiside/app/admin/controller/Category.php:59]
+[2020-10-20 13:29:59][error] [8]Undefined index: pid[/Users/zhangboshuai/www/yiside/vendor/zoujingli/think-library/src/extend/DataExtend.php:81]
+[2020-10-20 14:06:09][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'field list'[/Users/zhangboshuai/www/yiside/vendor/topthink/think-orm/src/db/PDOConnection.php:768]
+[2020-10-20 14:11:02][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'field list'[/Users/zhangboshuai/www/yiside/vendor/topthink/think-orm/src/db/PDOConnection.php:768]
+[2020-10-20 14:17:08][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'field list'[/Users/zhangboshuai/www/yiside/vendor/topthink/think-orm/src/db/PDOConnection.php:768]
+[2020-10-20 14:29:20][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'field list'[/Users/zhangboshuai/www/yiside/vendor/topthink/think-orm/src/db/PDOConnection.php:768]
+[2020-10-20 14:38:40][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'field list'[/Users/zhangboshuai/www/yiside/vendor/topthink/think-orm/src/db/PDOConnection.php:768]
+[2020-10-20 14:40:05][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'field list'[/Users/zhangboshuai/www/yiside/vendor/topthink/think-orm/src/db/PDOConnection.php:768]
+[2020-10-20 14:40:40][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'field list'[/Users/zhangboshuai/www/yiside/vendor/topthink/think-orm/src/db/PDOConnection.php:768]
+[2020-10-20 14:43:06][error] [8]Undefined index: name[/Users/zhangboshuai/www/yiside/app/admin/controller/Category.php:112]
+[2020-10-20 14:45:28][error] [0]Class 'app\admin\controller\odeService' not found[/Users/zhangboshuai/www/yiside/app/admin/controller/Category.php:111]
+[2020-10-20 14:51:35][error] [0]Class 'app\admin\controller\odeService' not found
+[2020-10-20 14:51:45][error] [0]Class 'app\admin\controller\odeService' not found
+[2020-10-20 14:51:49][error] [0]Class 'app\admin\controller\odeService' not found
+[2020-10-20 15:10:23][error] [0]Class 'app\admin\controller\odeService' not found
+[2020-10-20 15:13:39][error] [0]Class 'app\admin\controller\odeService' not found
+[2020-10-20 15:42:48][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 15:43:37][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 15:45:26][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 15:45:31][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 15:45:39][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 15:45:42][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 15:46:47][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 16:18:20][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 16:18:28][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 16:22:13][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 16:27:05][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 16:27:18][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 16:27:48][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 16:27:53][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 16:28:18][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 16:28:24][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 16:28:45][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 16:28:49][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 16:28:55][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 16:37:10][error] [0]Class 'app\admin\controller\AdminService' not found
+[2020-10-20 16:37:47][error] [0]Class 'app\admin\controller\AdminService' not found
+[2020-10-20 16:38:27][error] [0]Class 'app\admin\controller\AdminService' not found
+[2020-10-20 16:38:33][error] [0]Class 'app\admin\controller\AdminService' not found
+[2020-10-20 16:39:54][error] [0]Class 'app\admin\controller\AdminService' not found
+[2020-10-20 16:40:45][error] [0]Class 'app\admin\controller\AdminService' not found
+[2020-10-20 16:41:36][error] [0]Class 'app\admin\controller\AdminService' not found
+[2020-10-20 16:42:11][error] [0]Class 'app\admin\controller\AdminService' not found
+[2020-10-20 16:42:46][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 16:49:17][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 16:49:57][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 16:50:03][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 16:54:14][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 16:56:14][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 16:56:20][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 16:56:58][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 16:57:04][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 16:57:10][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 16:57:16][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 16:57:19][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 16:57:22][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 16:58:06][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 16:58:12][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 16:58:15][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 17:00:06][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 17:00:10][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 17:01:08][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 17:05:17][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 17:06:14][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 17:32:26][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 17:43:06][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 17:52:44][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 17:54:06][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 17:54:17][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 17:55:14][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 17:55:52][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'
+[2020-10-20 17:56:03][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'desc' in 'order clause'
+[2020-10-20 17:56:19][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'desc' in 'order clause'
+[2020-10-20 21:21:59][error] [0]Call to undefined method app\admin\controller\Good::page()
+[2020-10-20 21:23:04][error] [0]Call to undefined method app\admin\controller\Good::page()
+[2020-10-20 21:44:39][error] [0]Class 'app\admin\controller\Db' not found
+[2020-10-20 21:44:44][error] [0]Class 'app\admin\controller\Db' not found
+[2020-10-20 22:09:20][error] [0]Class 'app\admin\controller\View' not found
+[2020-10-20 22:09:29][error] [0]Class 'app\admin\controller\View' not found
+[2020-10-20 22:10:02][error] [0]Class 'app\admin\controller\View' not found
+[2020-10-20 22:11:13][error] [0]Class 'app\admin\controller\View' not found
+[2020-10-20 22:22:49][error] [0]syntax error, unexpected ';', expecting ',' or ')'
+[2020-10-20 23:06:31][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'where clause'
+[2020-10-20 23:06:36][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'where clause'
+[2020-10-20 23:06:58][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'where clause'
+[2020-10-20 23:07:15][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'where clause'
+[2020-10-20 23:07:29][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'where clause'
+[2020-10-20 23:07:42][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'where clause'
+[2020-10-20 23:08:15][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'where clause'
+[2020-10-20 23:08:47][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'where clause'
+[2020-10-20 23:09:24][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'where clause'
+[2020-10-20 23:09:51][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'where clause'
+[2020-10-20 23:09:56][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'where clause'
+[2020-10-20 23:10:11][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'where clause'
+[2020-10-20 23:10:57][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'where clause'
+[2020-10-20 23:12:42][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'where clause'
+[2020-10-20 23:12:59][error] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'where clause'
